@@ -1,0 +1,4 @@
+name: mineStealth
+version: '1.0-SNAPSHOT'
+main: drizmans.mineStealth.MineStealth
+api-version: '1.21'
