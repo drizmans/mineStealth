@@ -131,7 +131,6 @@ public final class MineStealth extends JavaPlugin implements Listener, CommandEx
         for (Player otherPlayer : Bukkit.getOnlinePlayers()) {
             if (!otherPlayer.equals(player)) { // Don't hide player from themselves
                 otherPlayer.hidePlayer(this, player);
-                player.hidePlayer(this, otherPlayer); // Ensure player is hidden from others
             }
         }
 
